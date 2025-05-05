@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfolio</title>
+</head>
+<body>
+    <header class="container text-center">
+    <p class="lead">Isis Bloedorn</p>
+    <p>15 anos</p>
+   <img src="img/perfil.png" alt="meu avatar" width="200" height="200" class="rounded-pill">
+   <h1>Sou estudante do Colégio Estadual Leonilda Papen do 
+    segundo ano do ensino médio de exatas.</h1>
+    <p>minhas matérias favoritas</p>
+<div>
+    <p class="badge text-bg-secondary">quimica</p>
+    <p class="badge text-bg-secondary">robotica</p>
+    <p class="badge text-bg-secondary">matematica</p>
+</div>
+</header>
+
+<div>   <main class="container">
+<h4>Minhas habilidades</h4>
+<p>-Sou uma pessoa organizada</p>
+<p>-Gosto de animais</p>
+<p>-Falam que sou ótima cozinheira</p>
+<p>-Gosto de ser livre</p>
+</main> </div>
+
+<main class="container mt-5">
+<h2>experiências</h2>
+<div class="row">
+<!--projeto1-->
+<div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+        <img src="img/suino.jpg" class="card-img-top" alt="" width="200" height="200" class="rounded-pill">
+        <div class="card-body">
+            <h5>cuidar de suínos</h5>
+          <p class="card-text">atividade que faço atualmente junto com meus pais, gosto mais aida prefiro tirar leite.</p>
+          <button type="button" class="btn btn-link"data-bs-toggle="modal" data-bs-target="#modal1">informações</button>
+        </div>
+      </div>
+</div>
+<!--projeto2-->
+    <div class="card" style="width: 18rem;">
+        <img src="img/vaca.jpeg" class="card-img-top" alt="" width="200" height="200" class="rounded-pill">
+        <div class="card-body">
+            <h5>tirar leite</h5>
+          <p class="card-text">sempre desde pequena gosto ajudei meus pais a tirar leite e cuidar das vacas e bezerros.</p>
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+            o projeto</button>
+        </div>
+      </div>
+<!--projeto3-->
+    <div class="card" style="width: 18rem;">
+        <img src="img/cozinha.jpg" class="card-img-top" alt="" width="200" height="200" class="rounded-pill">
+        <div class="card-body">
+            <h5>cozinhar</h5>
+          <p class="card-text">faço desde os 11, no comeso não conseguia mas agora já tenho experiêriencia.</p>
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">informações</button>
+        </div>
+      </div>
+
+</div>
+</main>
+
+<!--modal1-->
+<div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">suíno</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>A suinocultura é a criação de suínos para produção de alimentos e seus derivados, para que a criação seja o bastante para
+           o consumo nacional e ainda para exportação, 
+          o Brasil tem uma cadeia produtiva extremamente organizada e focada na qualidade de carne e outros produtos provenientes
+           dos suínos. 
+
+          Como mencionado anteriormente, a suinocultura é de extrema importância nacional, visto que nos últimos anos, foi um dos 
+          setores que mais impulsionou a economia do país. 
+          
+          Na cadeia produtiva de criação de suínos está inclusa a produção de grãos, fábricas de rações, os abatedouros,
+           transportadores, frigoríficos, distribuição, medicamentos e o consumidor final. 
+          
+          E aliado a tudo isso, está a pesquisa e desenvolvimento, que age em todos as partes da cadeia, dando suporte ao produtor 
+          e a agroindústria, buscando resultados e tecnologias para fornecer um produto de qualidade, acompanhando as normas de
+          sanidade, produção e inspeção governamentais.   </p>
+          <img src="img/suino.jpg" class="card-img-top" alt="" width="200" height="200">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">voltar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal2-->
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">leite</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>A produção de leite no Brasil é uma atividade de grande importância econômica e social, 
+          com uma produção anual estimada em 35,3 bilhões de litros. A produção leiteira está espalhada por quase todo o país,
+          com destaque para estados como Minas Gerais, Rio Grande do Sul, Paraná e Goiás. A produção 
+          de leite é um importante gerador de renda e empregos, além de ser uma fonte crucial de proteína e nutrientes para a população. 
+       </p>
+       <img src="img/vaca.jpeg" class="card-img-top" alt="" width="200" height="200">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">voltar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal3-->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">cozinhar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Cozinhar é uma atividade antiga que une criatividade, aprendizado e prazer. 
+          Envolve a manipulação de ingredientes para criar pratos saborosos e nutritivos. É uma forma de expressar carinho,
+           promover momentos em família e até mesmo desenvolver habilidades e conhecimento. Cozinhar bem requer organização,
+           paciência e atenção aos detalhes, como a escolha de ingredientes, a temperatura do fogo e o tempo de cozimento.    </p>
+           <img src="img/cozinha.jpg" class="card-img-top" alt="" width="200" height="200" >
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">voltar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<main class="container text-center py-5">
+<h4>Quero ser agricultora e me inspiro nos meus pais</h4>
+<p>O que mais gosto de fazer é lidar com animais, sou uma pessoa focada nos meus objetivos.</p>
+</main>
+
+<footer class="container py-5">
+  <h2>Entre em contato</h2>
+<div>
+  <i class="bi bi-github"></i>
+  <a href="https://github.com/isisbloedorn"> GitHub</a>
+  <p class="my-5 text-center">© Copyright 2025. Produzido por Isis Bloedorn </p>
+</div>
+</footer>
+</body>
+</html>
